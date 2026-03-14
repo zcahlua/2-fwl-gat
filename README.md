@@ -27,7 +27,7 @@ pip install -r requirements-qm9.txt
 ### Run training
 
 ```bash
-python -m qm9_local2fwl.train --target 0 --epochs 5 --batch-size 16 --subset 512
+python -m qm9_local2fwl.train --target 0 --epochs 200 --batch-size 16 --subset 512
 ```
 
 You can switch targets with `--target <index>` and use full data by omitting `--subset`.
